@@ -280,7 +280,7 @@ install_url("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0
 sent_df = data.frame(text = some_txt, emotion = emotion,
 polarity = polarity, stringsAsFactors = FALSE)
 
-# sort data frame
+# sort the data frame
 sent_df = within(sent_df,
   emotion <- factor(emotion, levels = names(sort(table(emotion), decreasing = TRUE))))
 
