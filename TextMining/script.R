@@ -7,8 +7,8 @@ library(twitteR)
 ##Authentication
 
 #Replace the XXX with your values
-consumerKey <- "SflHiwscs2Zlinxn2JFYdY0Js"
-consumerSecret <- "vEoEYUlgRLnCTYWXVn8LzrtmijuYVqfn0PK9dHOXWiyekh23Ab"
+consumerKey <- "XXX"
+consumerSecret <- "XXX"
 
 #Replace with your access_token and access_secret
 setup_twitter_oauth(consumerKey, consumerSecret, access_token, access_secret)
